@@ -134,7 +134,7 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lsj-al-BAQ">
                                                                     <rect key="frame" x="0.0" y="0.0" width="259" height="110.5"/>
                                                                     <subviews>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S4F-t0-xEA">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S4F-t0-xEA">
                                                                             <rect key="frame" x="10" y="10" width="50" height="90"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="90" id="Smu-h2-phH"/>
