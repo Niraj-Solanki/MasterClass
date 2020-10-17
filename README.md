@@ -4,7 +4,7 @@ Sample of MasterClass Application / Browse Section
 
 
 MasterClass Browse Application:- This Sample Contain Structure of TabBar & BrowseTab ListingWork. </Br>
-<b>Browse Screen </b>:- Used For Display "Category" & "Profiles" Which Expose AnyList And its Respective SubData. When Select Category(left View) Item. Its Respective data will animate in Profile(Right View). & When Scroll Profile Data, Category data will automatically update its selected item with animate.</br></br>
+<b>Browse Screen </b>:- Used For Display "Category" & "Profiles" Which Expose AnyList And its Respective SubData.<br>. When Select Category(left View) Item. Its Respective data will animate in Profile(Right View). & When Scroll Profile list Then Category List Will Automatically Update Selected Item With Animate.</br></br>
 
 ### App Architecture & XCode , Language
 MVVM Architecture is used in this sample app & binding with Observer. 
