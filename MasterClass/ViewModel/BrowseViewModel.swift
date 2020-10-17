@@ -10,15 +10,34 @@ import UIKit
 
 class BrowseViewModel {
     
-    private let listItemsArray = ["FOOD","ARTS & ENTERTAINMENT","MUSIC","WRITING","SPORTS & GAMING","DESIGN & STYLE","BUSINESS","SCIENCE & TECH","HOME & LIFESTYLE","COMMUNITY"]
+   private let browseModel = BrowseDataModel()
     
+    init() {}
     
-    init() {
-        
+    var categoryItems:[Profile]{
+        return browseModel.categories
     }
     
-    var listItems:[String]{
-        return listItemsArray
+    var headerNib:UINib{
+          return UINib.init(nibName: "DetailHeaderView", bundle: nil)
+      }
+      
+      var reuseableHeaderIdentifier:String{
+          return "DetailHeaderView"
+      }
+    
+    var categoryContentInset:UIEdgeInsets{
+        return UIEdgeInsets(top: 20,left: 0,bottom: 20,right: 0)
     }
     
+    var profileContentInset:UIEdgeInsets{
+        return UIEdgeInsets(top: 50,left: 0,bottom: 50,right: 0)
+    }
+    
+    var defaultIndexPath:IndexPath{
+        return IndexPath(row: 0, section: 0)
+    }
+    
+    
+    var isScrollUpdate = true
 }
